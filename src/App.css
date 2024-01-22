@@ -1,0 +1,21 @@
+.swiper {
+    top: -70px;
+}
+.single-blog {
+    top: 70px;
+}
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+    color: #5E43FF;
+    top: 24px;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+.swiper .swiper-button-prev {
+    right: 0;
+    left: 93%;
+}
+.swiper .swiper-button-next {
+    right: 0px;
+}
