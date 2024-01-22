@@ -26,7 +26,7 @@ function App() {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3002/all-blog', {
+    fetch('https://blog-section-server.vercel.app/all-blog', {
       headers: {
         authorization: `Bearer ${localStorage.getItem('access-token')}`
       }

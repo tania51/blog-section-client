@@ -33,7 +33,7 @@ const Register = () => {
                     });
                     navigate('/')
 
-                    fetch('http://localhost:3002/user', {
+                    fetch('https://blog-section-server.vercel.app/user', {
                         method: 'POST',
                         headers: {
                             'content-type': 'application/json'
